@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 st.title('Exploratory Penguine Data Analysis with Streamlit')
-st.title('This Streamlit application reads the penguin dataset and displays interesting data visualizations!')
+st.write('This Streamlit application reads the penguin dataset and displays interesting data visualizations!')
 
 def load_data():
     penguins = sns.load_dataset('penguins')
