@@ -15,6 +15,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## How to Use
+
+The left side bar allows you to select column to filter. 
+If the selected column is numeric (float64), then we display a slider widget to allow the user to select a range of values. If the selected column is not numeric, we are using the text input widget.
+
 ## What's Included
 
 - `app.py`: The main Flask application
